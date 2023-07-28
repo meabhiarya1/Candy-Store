@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>candies_here</title>
+</head>
+<body>
+    <form >
+        <label for="candy_name"> <b>Candy name : </b> </label>
+        <input type="text" name="candyname" id="candy_name">
+
+        <label for="candy_name"> <b>Description : </b> </label>
+        <input type="text" name="descriptions" id="description">
+
+        <label for="candy_name"> <b>Price : </b> </label>
+        <input type="number" name="prce" id="price">
+
+        <label for="quantity"> <b>Quantity : </b> </label>
+        <input type="number" name="qt" id="quantity">
+
+        <input type="submit" id="submit" value="Add Item">
+    </form>
+    <div id="output">
+        <h5 id="h5"></h5>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.6/axios.min.js"></script>
+    <script src="can.js"></script>
+</body>
+</html>
